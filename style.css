@@ -6,6 +6,7 @@ body{
     text-align: center;
     color: aliceblue;
 }
+
 .container textarea{
     text-align: center;
     color: inherit;
@@ -19,6 +20,7 @@ body{
     margin-bottom: 1rem;
 }
 .intro-text{
+    font-size: large;
     margin: 1rem auto;
     text-align: center;
     width: 80%;
@@ -28,7 +30,7 @@ body{
     outline: none;
     cursor: pointer;
     margin: 5px;
-    padding: 4px;
+    padding: 8px;
     border: 1px solid black;
     color: white;
     display: inline-block;
