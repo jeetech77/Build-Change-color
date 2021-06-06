@@ -1,0 +1,38 @@
+*{
+    transition: all .4s;
+}
+body{
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    color: aliceblue;
+}
+.container textarea{
+    text-align: center;
+    color: inherit;
+    height:8rem;
+    overflow: auto;
+    width: 70%;
+    background-color: initial;
+    outline: none;
+    border: 1px dashed white;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+.intro-text{
+    margin: 1rem auto;
+    text-align: center;
+    width: 80%;
+}
+.container button{
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid black;
+    color: white;
+    display: inline-block;
+}
+.output-text{
+    max-width: 80%;
+}
